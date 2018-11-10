@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/1 nivel estudio.unity
-=======
-- path: Assets/Scenes/PrimeraEscena.unity
->>>>>>> 764cfd9098f111984dea9710f54ea7e4d83bff68
+- path: Assets/Scenes/Memes.unity
   isLoaded: 1
   isActive: 1
