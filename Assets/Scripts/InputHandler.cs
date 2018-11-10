@@ -32,13 +32,7 @@ public class InputHandler : MonoBehaviour {
             rb.AddForce(new Vector2(0.0F, 2.0F) * jumpForce, ForceMode2D.Impulse);
         }
 
-        /*Debug.Log(collidedWithItem);
-        if(Input.GetButtonDown("Pick") && collidedWithItem){
-            Debug.Log("Item Picked");
-        }*/
         Debug.Log(itemPicked);
-        
-
         
 	}
 
@@ -52,21 +46,10 @@ public class InputHandler : MonoBehaviour {
         isGrounded = false;
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Finish" && itemPicked){
-            
+        if(other.gameObject.CompareTag("Finish") && itemPicked){
             itemPicked = false;
         }
-
-        /*if(other.gameObject.tag == "Item" && Input.GetButtonDown("Pick")){
-            itemPicked = true;
-            Debug.Log("Item Picked");
-            collidedWithItem = true;
-        }
-        else{
-            //itemPicked = false;
-            collidedWithItem = false;
-        }*/
     }
 }
