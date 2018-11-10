@@ -8,15 +8,11 @@ public class InputHandler : MonoBehaviour {
     public int jumpForce = 6;
     private Rigidbody2D rb;
     private bool isGrounded;
-    //private bool itemPicked;
-    private bool collidedWithItem;
     public static bool itemPicked = false;
     public static bool keyItemPicked = false;
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
         isGrounded = true;
-        //itemPicked = false;
-        collidedWithItem = false;
 	}
 	
 	// Update is called once per frame
