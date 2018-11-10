@@ -63,6 +63,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\InputHandler.cs" />
     <Compile Include="Assets\Scripts\PickUp.cs" />
+    <Compile Include="Assets\TheCloudCreator\Packages\000004 - Bodyboard\Demo\Scripts\ResetObjects_00004.cs" />
+    <Compile Include="Assets\TheCloudCreator\Packages\000004 - Bodyboard\Demo\Scripts\ScreenShooter_000004.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/game jam 2018-2/ECIGAMEJAM/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

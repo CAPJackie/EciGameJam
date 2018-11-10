@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/memes 3d.unity
+- path: Assets/Scenes/surfer man.unity
   isLoaded: 1
   isActive: 1
